@@ -1,4 +1,5 @@
 ﻿using BookingApp.Models.Bookings.Contracts;
+using BookingApp.Models.Rooms;
 using BookingApp.Models.Rooms.Contracts;
 using BookingApp.Utilities.Messages;
 using System;
@@ -9,25 +10,28 @@ namespace BookingApp.Models.Bookings
 {
     public class Booking : IBooking
     {
-
-        public Booking(IRoom room, int residenceDuration, int adultsCount, int childrenCount, int bookingNumber)
-        {
-            this.Room = room;
-            this.ResidenceDuration = residenceDuration;
-            this.AdultsCount = adultsCount;
-            this.ChildrenCount = childrenCount;
-            this.BookingNumber = bookingNumber;
-        }
-        public IRoom Room { get; private set; }
-
+        private IRoom room;
         private int residenceDuration;
+        private int adultCount;
+        private int childrenCount;
+        private int bookingNumber;
+
+        public Booking(IRoom room, int residenceDuration, int adultCount, int childrenCount, int bookingNumber)
+        {
+            this.room = room;
+            ResidenceDuration = residenceDuration;
+            AdultsCount = adultCount;
+            ChildrenCount = childrenCount;
+            this.bookingNumber = bookingNumber;
+        }
+        public IRoom Room => room;
 
         public int ResidenceDuration
         {
-            get { return residenceDuration; }
-           private set
+            get => residenceDuration;
+            private set
             {
-                if (value <= 0)
+                if (value < 1)
                 {
                     throw new ArgumentException(ExceptionMessages.DurationZeroOrLess);
                 }
@@ -35,28 +39,22 @@ namespace BookingApp.Models.Bookings
             }
         }
 
-
-        private int adultsCount;
-
         public int AdultsCount
         {
-            get { return adultsCount; }
-          private  set
+            get => adultCount;
+            private set
             {
-                if (value <= 0)
+                if (value < 1)
                 {
                     throw new ArgumentException(ExceptionMessages.AdultsZeroOrLess);
                 }
-                adultsCount = value;
+                adultCount = value;
             }
         }
 
-
-        private int childrenCount;
-
         public int ChildrenCount
         {
-            get { return childrenCount; }
+            get => childrenCount;
             private set
             {
                 if (value < 0)
@@ -66,20 +64,22 @@ namespace BookingApp.Models.Bookings
                 childrenCount = value;
             }
         }
-        
 
-        public int BookingNumber { get; private set; }
+        public int BookingNumber => bookingNumber;
+
         public string BookingSummary()
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"Booking number: {BookingNumber}")
-                .AppendLine($"Room type: {Room.GetType()}")
-                .AppendLine($"Adults: {AdultsCount} Children: {ChildrenCount}")
-                .AppendLine($"Total amount paid: {TotalPaid():F2}");
 
-            return sb.ToString().TrimEnd();
+            sb.AppendLine($"Booking number: {BookingNumber}");
+            sb.AppendLine($"Room type: {Room.GetType().Name}");
+            sb.AppendLine($"Adults: {AdultsCount} Children: {ChildrenCount}");
+            sb.AppendLine($"Total amount paid: {Total():F2} $");
+
+            return sb.ToString();
         }
-        private double TotalPaid() => Math.Round(ResidenceDuration * Room.PricePerNight, 2);
+
+        private double Total() => Math.Round(ResidenceDuration * room.PricePerNight, 2);
     }
 }

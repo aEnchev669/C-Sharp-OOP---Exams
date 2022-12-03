@@ -1,6 +1,7 @@
 ﻿using BookingApp.Models.Bookings.Contracts;
 using BookingApp.Models.Hotels.Contacts;
 using BookingApp.Models.Rooms.Contracts;
+using BookingApp.Repositories;
 using BookingApp.Repositories.Contracts;
 using BookingApp.Utilities.Messages;
 using System;
@@ -15,6 +16,9 @@ namespace BookingApp.Models.Hotels
         {
             FullName = fullName;
             Category = category;
+
+            rooms = new RoomRepository();
+            bookings = new BookingRepository();
         }
         private string fullName;
 

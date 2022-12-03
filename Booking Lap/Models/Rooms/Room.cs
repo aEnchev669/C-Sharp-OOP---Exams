@@ -4,29 +4,23 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BookingApp.Models.Bookings
+namespace BookingApp.Models.Rooms
 {
     public abstract class Room : IRoom
     {
+        private readonly int bedCapacity;
+        private double pricePerNight;
         public Room(int bedCapacity)
         {
-            this.BedCapacity = bedCapacity;
-        }
-        private int bedCapacity;
-
-        public int BedCapacity
-        {
-            get { return bedCapacity; }
-            private set { bedCapacity = value; }
+            this.bedCapacity = bedCapacity;
+            this.pricePerNight = 0;
         }
 
-        
-
-        private double pricePerNight;
+        public int BedCapacity => bedCapacity;
 
         public double PricePerNight
         {
-            get { return pricePerNight; }
+            get => pricePerNight;
             private set
             {
                 if (value < 0)
@@ -36,8 +30,6 @@ namespace BookingApp.Models.Bookings
                 pricePerNight = value;
             }
         }
-
-
 
         public void SetPrice(double price)
         {
