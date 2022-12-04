@@ -23,12 +23,12 @@ namespace PlanetWars.Repositories
 
         public IPlanet FindByName(string name)
         {
-            return planets.FirstOrDefault(w => w.GetType().Name == name);
+            return planets.FirstOrDefault(w => w.Name == name);
         }
 
         public bool RemoveItem(string name)
         {
-            return planets.Remove(planets.Find(w => w.GetType().Name == name));
+            return planets.Remove(planets.Find(w => w.Name == name));
         }
     }
 }

@@ -54,8 +54,6 @@ namespace PlanetWars.Models.Planets
             }
         }
 
-        private double militaryPower;
-
         public double MilitaryPower => CalculateTotalAmount();                                                                                                                                                                                                                                                           
         
 
@@ -97,7 +95,7 @@ namespace PlanetWars.Models.Planets
 
         public void Spend(double amount)
         {
-            if (budget - amount < 0)                                          //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            if (budget < amount)                                          //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             {
                 throw new InvalidOperationException(ExceptionMessages.UnsufficientBudget);
             }
