@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\bin\Debug\netcoreapp3.1\PlanetWars.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\bin\Debug\netcoreapp3.1\PlanetWars.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\bin\Debug\netcoreapp3.1\PlanetWars.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\bin\Debug\netcoreapp3.1\PlanetWars.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\bin\Debug\netcoreapp3.1\PlanetWars.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\bin\Debug\netcoreapp3.1\PlanetWars.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\obj\Debug\netcoreapp3.1\PlanetWars.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\obj\Debug\netcoreapp3.1\PlanetWars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\obj\Debug\netcoreapp3.1\PlanetWars.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\obj\Debug\netcoreapp3.1\PlanetWars.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\obj\Debug\netcoreapp3.1\PlanetWars.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\obj\Debug\netcoreapp3.1\PlanetWars.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\obj\Debug\netcoreapp3.1\PlanetWars.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\PlanetWars\obj\Debug\netcoreapp3.1\PlanetWars.genruntimeconfig.cache
