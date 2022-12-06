@@ -21,7 +21,7 @@ namespace FrontDeskApp
             private set
             {
                 if (value <= 0)
-                {
+                {                                          // can check if the setter set the value
                     throw new ArgumentException();
                 }
                 bedCapacity = value;

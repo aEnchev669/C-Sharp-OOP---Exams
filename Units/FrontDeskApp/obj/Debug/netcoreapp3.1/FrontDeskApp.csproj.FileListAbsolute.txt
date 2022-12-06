@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\bin\Debug\netcoreapp3.1\FrontDeskApp.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\bin\Debug\netcoreapp3.1\FrontDeskApp.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\bin\Debug\netcoreapp3.1\FrontDeskApp.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\bin\Debug\netcoreapp3.1\FrontDeskApp.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\bin\Debug\netcoreapp3.1\FrontDeskApp.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\bin\Debug\netcoreapp3.1\FrontDeskApp.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\obj\Debug\netcoreapp3.1\FrontDeskApp.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\obj\Debug\netcoreapp3.1\FrontDeskApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\obj\Debug\netcoreapp3.1\FrontDeskApp.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\obj\Debug\netcoreapp3.1\FrontDeskApp.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\obj\Debug\netcoreapp3.1\FrontDeskApp.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\obj\Debug\netcoreapp3.1\FrontDeskApp.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\obj\Debug\netcoreapp3.1\FrontDeskApp.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\FrontDeskApp\obj\Debug\netcoreapp3.1\FrontDeskApp.genruntimeconfig.cache
