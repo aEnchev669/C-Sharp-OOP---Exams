@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aench\\OneDrive\\Документи\\GitHub\\Exams\\CarRacing\\CarRacing.csproj",
+      "projectUniqueName": "C:\\Users\\aench\\OneDrive\\Документи\\GitHub\\Exams\\Car\\CarRacing\\CarRacing.csproj",
       "projectName": "CarRacing",
-      "projectPath": "C:\\Users\\aench\\OneDrive\\Документи\\GitHub\\Exams\\CarRacing\\CarRacing.csproj",
+      "projectPath": "C:\\Users\\aench\\OneDrive\\Документи\\GitHub\\Exams\\Car\\CarRacing\\CarRacing.csproj",
       "packagesPath": "C:\\Users\\aench\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aench\\OneDrive\\Документи\\GitHub\\Exams\\CarRacing\\obj\\",
+      "outputPath": "C:\\Users\\aench\\OneDrive\\Документи\\GitHub\\Exams\\Car\\CarRacing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
