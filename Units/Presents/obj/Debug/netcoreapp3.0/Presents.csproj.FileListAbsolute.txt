@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\bin\Debug\netcoreapp3.0\Presents.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\bin\Debug\netcoreapp3.0\Presents.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\bin\Debug\netcoreapp3.0\Presents.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\bin\Debug\netcoreapp3.0\Presents.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\bin\Debug\netcoreapp3.0\Presents.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\bin\Debug\netcoreapp3.0\Presents.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\obj\Debug\netcoreapp3.0\Presents.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\obj\Debug\netcoreapp3.0\Presents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\obj\Debug\netcoreapp3.0\Presents.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\obj\Debug\netcoreapp3.0\Presents.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\obj\Debug\netcoreapp3.0\Presents.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\obj\Debug\netcoreapp3.0\Presents.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\obj\Debug\netcoreapp3.0\Presents.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Presents\obj\Debug\netcoreapp3.0\Presents.genruntimeconfig.cache
