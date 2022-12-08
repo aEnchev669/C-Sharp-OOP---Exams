@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\bin\Debug\netcoreapp3.1\Gyms.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\bin\Debug\netcoreapp3.1\Gyms.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\bin\Debug\netcoreapp3.1\Gyms.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\bin\Debug\netcoreapp3.1\Gyms.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\bin\Debug\netcoreapp3.1\Gyms.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\bin\Debug\netcoreapp3.1\Gyms.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\obj\Debug\netcoreapp3.1\Gyms.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\obj\Debug\netcoreapp3.1\Gyms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\obj\Debug\netcoreapp3.1\Gyms.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\obj\Debug\netcoreapp3.1\Gyms.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\obj\Debug\netcoreapp3.1\Gyms.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\obj\Debug\netcoreapp3.1\Gyms.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\obj\Debug\netcoreapp3.1\Gyms.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\new1\UnitTests-Skeleton\Gyms\obj\Debug\netcoreapp3.1\Gyms.genruntimeconfig.cache
