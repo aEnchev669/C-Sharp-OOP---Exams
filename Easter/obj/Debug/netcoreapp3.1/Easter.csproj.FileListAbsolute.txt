@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\obj\Debug\netcoreapp3.1\Easter.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\obj\Debug\netcoreapp3.1\Easter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\obj\Debug\netcoreapp3.1\Easter.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\obj\Debug\netcoreapp3.1\Easter.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\obj\Debug\netcoreapp3.1\Easter.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\bin\Debug\netcoreapp3.1\Easter.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\bin\Debug\netcoreapp3.1\Easter.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\bin\Debug\netcoreapp3.1\Easter.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\bin\Debug\netcoreapp3.1\Easter.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\bin\Debug\netcoreapp3.1\Easter.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\bin\Debug\netcoreapp3.1\Easter.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\obj\Debug\netcoreapp3.1\Easter.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\obj\Debug\netcoreapp3.1\Easter.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Easter\obj\Debug\netcoreapp3.1\Easter.genruntimeconfig.cache
