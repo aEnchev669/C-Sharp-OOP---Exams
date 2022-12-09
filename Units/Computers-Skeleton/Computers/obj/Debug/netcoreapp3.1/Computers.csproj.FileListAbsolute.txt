@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\bin\Debug\netcoreapp3.1\Computers.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\bin\Debug\netcoreapp3.1\Computers.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\bin\Debug\netcoreapp3.1\Computers.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\bin\Debug\netcoreapp3.1\Computers.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\bin\Debug\netcoreapp3.1\Computers.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\bin\Debug\netcoreapp3.1\Computers.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\obj\Debug\netcoreapp3.1\Computers.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\obj\Debug\netcoreapp3.1\Computers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\obj\Debug\netcoreapp3.1\Computers.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\obj\Debug\netcoreapp3.1\Computers.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\obj\Debug\netcoreapp3.1\Computers.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\obj\Debug\netcoreapp3.1\Computers.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\obj\Debug\netcoreapp3.1\Computers.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Units\Computers-Skeleton\Computers\obj\Debug\netcoreapp3.1\Computers.genruntimeconfig.cache
