@@ -7,11 +7,6 @@ namespace OnlineShop.Models.Products
 {
     public abstract class Product : IProduct
     {
-        private int id;
-        private string manufacturer;
-        private string model;
-        private decimal price;
-        private double overallPerformance;
         public Product(int id, string manufacturer, string model, decimal price, double overallPerformance)
         {
             Id = id;
@@ -20,9 +15,11 @@ namespace OnlineShop.Models.Products
             Price = price;
             OverallPerformance = overallPerformance;
         }
+        private int id;
+
         public int Id
         {
-            get => id;
+            get { return id; }
             private set
             {
                 if (value <= 0)
@@ -31,11 +28,15 @@ namespace OnlineShop.Models.Products
                 }
                 id = value;
             }
+
         }
+
+
+        private string manufacturer;
 
         public string Manufacturer
         {
-            get => manufacturer;
+            get { return manufacturer; }
             private set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -45,10 +46,11 @@ namespace OnlineShop.Models.Products
                 manufacturer = value;
             }
         }
+        private string model;
 
         public string Model
         {
-            get => model;
+            get { return model; }
             private set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -58,10 +60,11 @@ namespace OnlineShop.Models.Products
                 model = value;
             }
         }
+        private decimal price;
 
         public virtual decimal Price
         {
-            get => price;
+            get { return price; }
             private set
             {
                 if (value <= 0)
@@ -71,22 +74,26 @@ namespace OnlineShop.Models.Products
                 price = value;
             }
         }
+        private double OverallPerformanco;
 
         public virtual double OverallPerformance
         {
-            get => overallPerformance;
+            get { return OverallPerformanco; }
             private set
             {
                 if (value <= 0)
                 {
                     throw new ArgumentException(ExceptionMessages.InvalidOverallPerformance);
                 }
-                overallPerformance = value;
+                OverallPerformanco = value;
             }
         }
-        public override string ToString()
+
+
+
+        public  override string ToString()
         {
-            return $"Overall Performance: {OverallPerformance:f2}. Price: {Price:f2} - {GetType().Name}: {Manufacturer} {Model} (Id: {Id})";
+            return $"Overall Performance: {OverallPerformance}. Price: {Price} - {GetType().Name}: {Manufacturer} {Model} (Id: {Id})";
         }
     }
 }
