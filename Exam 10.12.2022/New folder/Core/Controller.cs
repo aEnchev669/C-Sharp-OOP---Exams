@@ -18,9 +18,9 @@ namespace ChristmasPastryShop.Core.Contracts
         public Controller()
         {
             boothRepository = new BoothRepository();
-            delicacies = new List<IDelicacy>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1111111111111
+            //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1111111111111
         }
-        private List<IDelicacy> delicacies;
+        
         private BoothRepository boothRepository;
         public string AddBooth(int capacity)
         {
