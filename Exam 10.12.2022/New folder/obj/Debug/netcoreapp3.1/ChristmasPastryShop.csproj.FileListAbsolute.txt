@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\bin\Debug\netcoreapp3.1\ChristmasPastryShop.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\bin\Debug\netcoreapp3.1\ChristmasPastryShop.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\bin\Debug\netcoreapp3.1\ChristmasPastryShop.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\bin\Debug\netcoreapp3.1\ChristmasPastryShop.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\bin\Debug\netcoreapp3.1\ChristmasPastryShop.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\bin\Debug\netcoreapp3.1\ChristmasPastryShop.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\obj\Debug\netcoreapp3.1\ChristmasPastryShop.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\obj\Debug\netcoreapp3.1\ChristmasPastryShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\obj\Debug\netcoreapp3.1\ChristmasPastryShop.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\obj\Debug\netcoreapp3.1\ChristmasPastryShop.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\obj\Debug\netcoreapp3.1\ChristmasPastryShop.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\obj\Debug\netcoreapp3.1\ChristmasPastryShop.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\obj\Debug\netcoreapp3.1\ChristmasPastryShop.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\New folder\obj\Debug\netcoreapp3.1\ChristmasPastryShop.genruntimeconfig.cache

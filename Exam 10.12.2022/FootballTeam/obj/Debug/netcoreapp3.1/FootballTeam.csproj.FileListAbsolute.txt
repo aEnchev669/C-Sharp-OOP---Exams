@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\bin\Debug\netcoreapp3.1\FootballTeam.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\bin\Debug\netcoreapp3.1\FootballTeam.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\bin\Debug\netcoreapp3.1\FootballTeam.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\bin\Debug\netcoreapp3.1\FootballTeam.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\bin\Debug\netcoreapp3.1\FootballTeam.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\bin\Debug\netcoreapp3.1\FootballTeam.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\obj\Debug\netcoreapp3.1\FootballTeam.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\obj\Debug\netcoreapp3.1\FootballTeam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\obj\Debug\netcoreapp3.1\FootballTeam.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\obj\Debug\netcoreapp3.1\FootballTeam.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\obj\Debug\netcoreapp3.1\FootballTeam.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\obj\Debug\netcoreapp3.1\FootballTeam.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\obj\Debug\netcoreapp3.1\FootballTeam.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\Exam 10.12.2022\FootballTeam\obj\Debug\netcoreapp3.1\FootballTeam.genruntimeconfig.cache

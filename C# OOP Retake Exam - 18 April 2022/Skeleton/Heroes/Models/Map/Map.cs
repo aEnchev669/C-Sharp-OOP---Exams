@@ -51,7 +51,7 @@ namespace Heroes.Models.Map
                 deadKnights += knights.RemoveAll(h => h.Health <= 0);           //!!!!!!!!!!!!!!!!!!!!!!!!!!!  += !
             }
 
-            string winner = knights.Count <= 0 ? $"The barbarians took {deadKnights} casualties but won the battle." : $"The knights took {deadBarbrarians} casualties but won the battle.";
+            string winner = knights.Count <= 0 ? $"The barbarians took {deadBarbrarians} casualties but won the battle." : $"The knights took { deadKnights} casualties but won the battle.";
 
             return winner;
         }
