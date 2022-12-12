@@ -6,12 +6,12 @@ using WarCroft.Entities.Inventory;
 
 namespace WarCroft.Entities.Characters
 {
-    public class Warrior : Character ,IAttacker
+    public class Warrior : Character, IAttacker
     {
-        private static Bag bag;
-        public Warrior(string name) : base(name, 100, 50, 40, bag)
+        
+        public Warrior(string name) : base(name, 100, 50, 40, new Satchel())
         {
-            bag = new Satchel();
+            
         }
 
         public void Attack(Character character)
@@ -21,10 +21,9 @@ namespace WarCroft.Entities.Characters
                 throw new InvalidOperationException("Cannot attack self!");
             }
 
-            if (character.IsAlive && this.IsAlive)
-            {
-                character.TakeDamage(this.AbilityPoints);
-            }
+            character.EnsureAlive();
+            character.TakeDamage(this.AbilityPoints);
+
         }
     }
 }

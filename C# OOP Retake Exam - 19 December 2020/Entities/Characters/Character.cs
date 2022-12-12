@@ -52,6 +52,14 @@ namespace WarCroft.Entities.Characters.Contracts
             get { return health; }
             set
             {
+                if (value > BaseHealth)
+                {
+                    value = BaseHealth;
+                }
+                else if (value < 0)
+                {
+                    value = 0;
+                }
                 health = value;
             }
         }
@@ -74,16 +82,24 @@ namespace WarCroft.Entities.Characters.Contracts
             get { return armor; }
             private set
             {
+                if (value > BaseArmor)
+                {
+                    value = BaseArmor;
+                }
+                else if (value < 0)
+                {
+                    value = 0;
+                }
                 armor = value;
             }
         }
 
         public double AbilityPoints { get; set; }                                     //field?
 
-        public Bag Bag{ get; set; }
+        public Bag Bag { get; set; }
         public bool IsAlive { get; set; } = true;
 
-        protected void EnsureAlive()
+        public void EnsureAlive()
         {
             if (!this.IsAlive)
             {
@@ -106,25 +122,8 @@ namespace WarCroft.Entities.Characters.Contracts
         }
         public void UseItem(Item item)
         {
-            if (IsAlive)
-            {
-                if (item.GetType().Name == "HealthPotion")
-                {
-                    Health += 20;
-                    if (Health > 100)
-                    {
-                        Health = 100;
-                    }
-                }
-                else if (item.GetType().Name == "FirePotion")
-                {
-                    Health -= 20;
-                    if (Health <= 0)
-                    {
-                        IsAlive = false;
-                    }
-                }
-            }
+            this.EnsureAlive();
+            item.AffectCharacter(this);
         }
     }
 }

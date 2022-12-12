@@ -8,11 +8,11 @@ namespace WarCroft.Entities.Characters
 {
     public class Priest : Character ,IHealer
     {
-        private static Bag bag;
+       
 
-        public Priest(string name) : base(name, 50, 25, 40, bag)
+        public Priest(string name) : base(name, 50, 25, 40, new Backpack())
         {
-           bag = new Backpack();
+           
         }
 
         public void Heal(Character character)

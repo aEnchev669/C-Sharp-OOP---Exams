@@ -10,7 +10,7 @@ namespace WarCroft.Entities.Items
         public FirePotion() : base(5)
         {
         }
-        public override void AffectCharacter(IAttacker character)
+        public override void AffectCharacter(Character character)
         {
             if (character.IsAlive)
             {

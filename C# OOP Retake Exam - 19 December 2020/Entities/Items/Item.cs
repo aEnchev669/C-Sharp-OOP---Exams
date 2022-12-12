@@ -15,7 +15,7 @@ namespace WarCroft.Entities.Items
 
 		public int Weight { get; }
 
-		public virtual void AffectCharacter(IAttacker character)
+		public virtual void AffectCharacter(Character character)
 		{
 			if (!character.IsAlive)
 			{
