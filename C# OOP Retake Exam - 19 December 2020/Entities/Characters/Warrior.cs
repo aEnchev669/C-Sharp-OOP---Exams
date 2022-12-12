@@ -8,7 +8,7 @@ namespace WarCroft.Entities.Characters
 {
     public class Warrior : Character ,IAttacker
     {
-        private static Satchel bag;
+        private static Bag bag;
         public Warrior(string name) : base(name, 100, 50, 40, bag)
         {
             bag = new Satchel();

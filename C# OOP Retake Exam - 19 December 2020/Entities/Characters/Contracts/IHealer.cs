@@ -2,6 +2,6 @@
 {
 	public interface IHealer
 	{
-		void Heal(IAttacker character);
+		void Heal(Character character);
 	}
 }

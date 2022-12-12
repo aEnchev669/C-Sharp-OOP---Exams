@@ -1,7 +1,7 @@
 ﻿namespace WarCroft.Entities.Characters.Contracts
 {
-	public interface IAttacker
+    public interface IAttacker
 	{
-		void Attack(IAttacker character);
+		void Attack(Character character);
 	}
 }
