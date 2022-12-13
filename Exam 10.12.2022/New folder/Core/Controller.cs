@@ -1,17 +1,19 @@
-﻿using ChristmasPastryShop.Models.Booths;
+﻿using ChristmasPastryShop.Core.Contracts;
+using ChristmasPastryShop.Models.Booths;
 using ChristmasPastryShop.Models.Booths.Contracts;
 using ChristmasPastryShop.Models.Cocktails;
 using ChristmasPastryShop.Models.Cocktails.Contracts;
 using ChristmasPastryShop.Models.Delicacies;
 using ChristmasPastryShop.Models.Delicacies.Contracts;
 using ChristmasPastryShop.Repositories;
+using ChristmasPastryShop.Repositories.Contracts;
 using ChristmasPastryShop.Utilities.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ChristmasPastryShop.Core.Contracts
+namespace ChristmasPastryShop.Core
 {
     public class Controller : IController
     {
@@ -21,7 +23,7 @@ namespace ChristmasPastryShop.Core.Contracts
             //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1111111111111
         }
         
-        private BoothRepository boothRepository;
+        private IRepository<IBooth> boothRepository;
         public string AddBooth(int capacity)
         {
             int boothId = boothRepository.Models.Count + 1;
