@@ -108,16 +108,22 @@ namespace WarCroft.Entities.Characters.Contracts
         }
         public void TakeDamage(double hitPoints)
         {
-            Armor -= hitPoints;
-            if (armor < 0)
+            if (Armor - hitPoints < 0)
             {
-                Health -= Math.Abs(Armor);
+                hitPoints -= Armor;
                 Armor = 0;
+
+                Health -= hitPoints;
+
                 if (Health <= 0)
                 {
                     IsAlive = false;
                     Health = 0;
                 }
+            }
+            else
+            {
+           Armor -= hitPoints;
             }
         }
         public void UseItem(Item item)
