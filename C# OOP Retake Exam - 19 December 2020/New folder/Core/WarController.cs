@@ -161,7 +161,7 @@ namespace WarCroft.Core
 		public string Heal(string[] args)
 		{
 			string healerName = args[0];
-			string healingName = args[0];
+			string healingName = args[1];
 
 			Character healer = characters.FirstOrDefault(c => c.Name == healerName);
 			Character healingReceiver = characters.FirstOrDefault(c => c.Name == healingName);
