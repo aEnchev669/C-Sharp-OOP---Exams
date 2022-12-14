@@ -26,7 +26,7 @@ namespace BookingApp.Repositories
 
         public IRoom Select(string criteria)
         {
-            return rooms.First(r => r.GetType().Name == criteria);
+            return rooms.FirstOrDefault(r => r.GetType().Name == criteria);
         }
     }
 }

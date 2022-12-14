@@ -27,7 +27,7 @@ namespace BookingApp.Repositories
 
         public IHotel Select(string criteria)
         {
-            return bookings.First(b => b.FullName == criteria);
+            return bookings.FirstOrDefault(b => b.FullName == criteria);
         }
     }
 }
