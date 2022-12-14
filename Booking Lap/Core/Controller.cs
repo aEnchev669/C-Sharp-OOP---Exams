@@ -59,7 +59,7 @@ namespace BookingApp.Core
 
             foreach (var item in availibeRooms.OrderBy(r => r.Key.BedCapacity))
             {
-                if (item.Key.BedCapacity > guests)
+                if (item.Key.BedCapacity >= guests)
                 {
                     booking = item.Key;
                     hotelNameBooking = item.Value;
@@ -84,7 +84,7 @@ namespace BookingApp.Core
         public string HotelReport(string hotelName)
         {
             StringBuilder sb = new StringBuilder();
-            if (hotels.All().Any(h => h.FullName == hotelName))
+            if (!(hotels.All().Any(h => h.FullName == hotelName)))
             {
                 return String.Format(OutputMessages.HotelNameInvalid, hotelName);
             }
