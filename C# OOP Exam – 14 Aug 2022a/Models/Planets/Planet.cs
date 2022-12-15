@@ -59,15 +59,8 @@ namespace PlanetWars.Models.Planets
 
         public double militaryPowerCalculator()
         {
-            double totalSum = 0;
-            foreach (var arm in army.Models)
-            {
-                totalSum += arm.EnduranceLevel;
-            }
-            foreach (var weapon in weapons.Models)
-            {
-                totalSum += weapon.DestructionLevel;
-            }
+           
+            double totalSum = army.Models.Sum(u => u.EnduranceLevel) + weapons.Models.Sum(w => w.DestructionLevel);
 
             if (army.Models.Any(m => m.GetType().Name == "AnonymousImpactUnit"))
             {
@@ -101,8 +94,18 @@ namespace PlanetWars.Models.Planets
         {
             StringBuilder sb = new StringBuilder();
 
-            string unitsInArmy = army.Models.Any() ? string.Join(", ", army) : "No units";
-            string weaponsNames = weapons.Models.Any() ? string.Join(", ", weapons) : "No weapons";
+            List<string> armyNames = new List<string>();
+            foreach (var item in army.Models)
+            {
+                armyNames.Add(item.GetType().Name);
+            }
+            List<string> weaponsNamesList = new List<string>();
+            foreach (var item in weapons.Models)
+            {
+                weaponsNamesList.Add(item.GetType().Name);
+            }
+            string unitsInArmy = army.Models.Any() ? string.Join(", ", armyNames) : "No units";
+            string weaponsNames = weapons.Models.Any() ? string.Join(", ", weaponsNamesList) : "No weapons";
 
             sb.AppendLine($"Planet: {this.Name}")
                 .AppendLine($"--Budget: {Budget} billion QUID")
@@ -112,15 +115,6 @@ namespace PlanetWars.Models.Planets
 
             return sb.ToString().TrimEnd();
         }
-
-
-
-
-
-
-
-
-
         public void Profit(double amount)
         {
             Budget += amount;
