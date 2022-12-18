@@ -12,6 +12,8 @@ namespace Heroes.Models.Heroes
             Name = name;
             Health = health;
             Armour = armour;
+
+
         }
         private string name;
 
@@ -65,7 +67,7 @@ namespace Heroes.Models.Heroes
         public IWeapon Weapon
         {
             get { return weapon; }
-             private set
+            private set
             {
                 if (value == null)
                 {
@@ -96,17 +98,17 @@ namespace Heroes.Models.Heroes
 
         public void TakeDamage(int points)
         {
-            Armour -= points;
+            armour -= points;
 
-            if (armour < 0)
+            if (armour <= 0)
             {
-                int leftPoints = Health - Math.Abs(Armour);
-                Health -= leftPoints;
+                int leftPoints =Math.Abs(armour);
+                health -= leftPoints;
                 Armour = 0;
-                if (Health < 0)
-                {
-                    Health = 0;
-                }
+            }
+            if (Health < 0)
+            {
+                Health = 0;
             }
         }
     }

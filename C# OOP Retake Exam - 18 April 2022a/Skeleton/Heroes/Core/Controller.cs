@@ -1,6 +1,7 @@
 ﻿using Heroes.Core.Contracts;
 using Heroes.Models.Contracts;
 using Heroes.Models.Heroes;
+using Heroes.Models.Map;
 using Heroes.Models.Weapons;
 using Heroes.Repositories;
 using Heroes.Repositories.Contracts;
@@ -33,15 +34,15 @@ namespace Heroes.Core
             {
                 throw new InvalidOperationException($"Weapon {weaponName} does not exist.");
             }
-                 //!!!!!!!!!!!!!!!!!!!!!!!!
-            if (hero.Weapon.GetType().Name != null)
+                
+            if (hero.Weapon != null)
             {
                 throw new InvalidOperationException($"Hero {heroName} is well-armed.");
             }
 
             hero.AddWeapon(weapon);
 
-            return $"Hero {heroName} can participate in battle using a {weaponName.ToLower()}.";
+            return $"Hero {heroName} can participate in battle using a {weapon.GetType().Name.ToLower()}.";
 
         }
 
@@ -65,7 +66,7 @@ namespace Heroes.Core
                 hero = new Barbarian(name, health, armour);
                 heroes.Add(hero);
 
-                return "Successfully added Barbarian { name } to the collection.";
+                return $"Successfully added Barbarian {name} to the collection.";
             }
             else
             {
@@ -102,12 +103,34 @@ namespace Heroes.Core
 
         public string HeroReport()
         {
-            throw new NotImplementedException();
+            StringBuilder sb = new StringBuilder();
+            foreach (var hero in heroes.Models.OrderBy(h => h.GetType().Name).ThenByDescending(h => h.Health).ThenBy(h => h.Name))
+            {
+                string weaponInfo = hero.Weapon == null ? "Unarmed" : hero.Weapon.Name;
+                sb.AppendLine($"{hero.GetType().Name }: {hero.Name}")
+                    .AppendLine($"--Health: {hero.Health}")
+                    .AppendLine($"--Armour: {hero.Armour}")
+                    .AppendLine($"--Weapon: {weaponInfo}");
+            }
+
+            return sb.ToString().TrimEnd();
         }
 
         public string StartBattle()
         {
-            throw new NotImplementedException();
+            IMap map = new Map();
+
+            List<IHero> heroCollection = new List<IHero>();
+
+            foreach (var item in heroes.Models)
+            {
+                if (item.Weapon != null)
+                {
+                    heroCollection.Add(item);
+                }
+            }
+
+           return map.Fight(heroCollection);
         }
     }
 }

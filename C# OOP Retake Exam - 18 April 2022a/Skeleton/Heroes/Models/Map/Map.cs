@@ -28,45 +28,35 @@ namespace Heroes.Models.Map
             int numOfDeatsForTheKnights = 0;
             int numOfDeatsForTheBarbarians = 0;
 
-            while (barbarians.Any(b => b.IsAlive) || knights.Any(b => b.IsAlive))
+            while (barbarians.Count != 0 && knights.Count != 0)
             {
 
                 foreach (var hero in knights)
                 {
-                    if (hero.IsAlive)
+
+                    foreach (var hero1 in barbarians)
                     {
-                        foreach (var hero1 in barbarians)
-                        {
-                            if (hero1.Health > 0)
-                            {
-                                hero1.TakeDamage(hero.Weapon.DoDamage());
-                                if (hero1.Health <= 0)
-                                {
-                                    numOfDeatsForTheBarbarians++;
-                                }
-                            }
-                        }
+
+                        hero1.TakeDamage(hero.Weapon.DoDamage());
+
                     }
                 }
 
+                numOfDeatsForTheKnights += knights.RemoveAll(h => h.Health <= 0);
 
                 foreach (var hero in barbarians)
                 {
-                    if (hero.IsAlive)
+
+                    foreach (var hero1 in knights)
                     {
-                        foreach (var hero1 in knights)
-                        {
-                            if (hero1.Health > 0)
-                            {
-                                hero1.TakeDamage(hero.Weapon.DoDamage());
-                                if (hero1.Health <= 0)
-                                {
-                                    numOfDeatsForTheKnights++;
-                                }
-                            }
-                        }
+
+                        hero1.TakeDamage(hero.Weapon.DoDamage());
+
                     }
+
                 }
+                numOfDeatsForTheBarbarians += barbarians.RemoveAll(h => h.Health <= 0);
+
             }
 
             if (barbarians.Any(b => b.IsAlive))
