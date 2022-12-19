@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\bin\Debug\netcoreapp3.1\UniversityLibrary.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\bin\Debug\netcoreapp3.1\UniversityLibrary.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\bin\Debug\netcoreapp3.1\UniversityLibrary.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\bin\Debug\netcoreapp3.1\UniversityLibrary.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\bin\Debug\netcoreapp3.1\UniversityLibrary.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\bin\Debug\netcoreapp3.1\UniversityLibrary.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\obj\Debug\netcoreapp3.1\UniversityLibrary.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\obj\Debug\netcoreapp3.1\UniversityLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\obj\Debug\netcoreapp3.1\UniversityLibrary.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\obj\Debug\netcoreapp3.1\UniversityLibrary.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\obj\Debug\netcoreapp3.1\UniversityLibrary.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\obj\Debug\netcoreapp3.1\UniversityLibrary.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\obj\Debug\netcoreapp3.1\UniversityLibrary.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\19.12.2022\UniversityLibrary\obj\Debug\netcoreapp3.1\UniversityLibrary.genruntimeconfig.cache

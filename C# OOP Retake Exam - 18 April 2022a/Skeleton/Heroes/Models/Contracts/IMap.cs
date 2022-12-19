@@ -2,7 +2,7 @@
 
 namespace Heroes.Models.Contracts
 {
-    public interface IMap
+    public interface IMap 
     {
         string Fight(ICollection<IHero> players);
     }
