@@ -1,0 +1,14 @@
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\bin\Debug\netcoreapp3.1\UniversityCompetition.exe
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\bin\Debug\netcoreapp3.1\UniversityCompetition.deps.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\bin\Debug\netcoreapp3.1\UniversityCompetition.runtimeconfig.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\bin\Debug\netcoreapp3.1\UniversityCompetition.runtimeconfig.dev.json
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\bin\Debug\netcoreapp3.1\UniversityCompetition.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\bin\Debug\netcoreapp3.1\UniversityCompetition.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\obj\Debug\netcoreapp3.1\UniversityCompetition.csproj.AssemblyReference.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\obj\Debug\netcoreapp3.1\UniversityCompetition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\obj\Debug\netcoreapp3.1\UniversityCompetition.AssemblyInfoInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\obj\Debug\netcoreapp3.1\UniversityCompetition.AssemblyInfo.cs
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\obj\Debug\netcoreapp3.1\UniversityCompetition.csproj.CoreCompileInputs.cache
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\obj\Debug\netcoreapp3.1\UniversityCompetition.dll
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\obj\Debug\netcoreapp3.1\UniversityCompetition.pdb
+C:\Users\aench\OneDrive\Документи\GitHub\Exams\!!!!!!!!!!!!!!!!!!!!!!!!\obj\Debug\netcoreapp3.1\UniversityCompetition.genruntimeconfig.cache
